@@ -5,7 +5,7 @@ import json
 
 load_dotenv()
 
-cliente = OpenAI(api_key=os.getenv("KEY_OPEN_IA"))
+cliente = OpenAI(api_key=os.getenv("KEY_OPENIA"))
 modelo = "gpt-3.5-turbo-0125"
 
 def carrega(nome_do_arquivo):
