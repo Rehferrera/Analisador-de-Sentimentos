@@ -63,7 +63,8 @@ def analisar_transacao(lista_transacoes):
         },
         {
             "role": "user",
-            "content": f"Considere o CSV abaixo, onde cada linha é uma transação diferente: {lista_transacoes}. Sua resposta deve adotar o #Formato de Resposta (apenas um json sem outros comentários)"
+            "content": f"Considere o CSV abaixo, onde cada linha é uma transação diferente: {lista_transacoes}. 
+            Sua resposta deve adotar o #Formato de Resposta (apenas um json sem outros comentários)"
         }
     ]
 
@@ -83,7 +84,8 @@ def gerar_parecer(transacao):
     print("2. Gerando um parecer para cada transação")
 
     prompt_sistema = f"""
-    Para a seguinte transação, forneça um parecer, apenas se o status dela for de "Possível Fraude". Indique no parecer uma justificativa para que você identifique uma fraude.
+    Para a seguinte transação, forneça um parecer, apenas se o status dela for de "Possível Fraude". 
+    Indique no parecer uma justificativa para que você identifique uma fraude.
     Transação: {transacao}
 
     ## Formato de Resposta
