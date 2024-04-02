@@ -1,2 +1,2 @@
-# Analisador-de-Sentimentos
-Analisador de sentimentos para transações bancárias
+# Analisador-de-Transacoes
+Analisador de transações bancárias 
