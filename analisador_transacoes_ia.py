@@ -63,8 +63,7 @@ def analisar_transacao(lista_transacoes):
         },
         {
             "role": "user",
-            "content": f"Considere o CSV abaixo, onde cada linha é uma transação diferente: {lista_transacoes}. 
-            Sua resposta deve adotar o #Formato de Resposta (apenas um json sem outros comentários)"
+            "content": f"Considere o CSV abaixo, onde cada linha é uma transação diferente: {lista_transacoes}. Sua resposta deve adotar o #Formato de Resposta (apenas um json sem outros comentários)"
         }
     ]
 
